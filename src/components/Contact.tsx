@@ -3,10 +3,11 @@
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 import { Mail, Github, Linkedin, FileText } from "lucide-react";
+import { DashSnake } from "./DashSnake";
 
 export function Contact() {
     return (
-        <footer id="contact" className="relative w-full py-32 px-6 md:px-24">
+        <footer id="contact" className="relative w-full pt-32 pb-12 px-6 md:px-24">
             {/* Vertical Label */}
             <div className="absolute right-6 top-32 hidden md:block">
                 <span className="vertical-text text-[10px] uppercase tracking-[0.5em] text-muted font-bold">
@@ -51,9 +52,12 @@ export function Contact() {
                         ))}
                     </div>
 
-                    <p className="mt-32 text-[10px] uppercase tracking-widest text-muted/50">
-                        © {new Date().getFullYear()} {portfolioData.name} — Based in {portfolioData.contact.location}
-                    </p>
+                    <div className="mt-12 flex flex-col md:flex-row items-center justify-between border-t border-white/5 pt-8 gap-4">
+                        <p className="text-[10px] uppercase tracking-widest text-muted/50">
+                            © {new Date().getFullYear()} {portfolioData.name} — Based in {portfolioData.contact.location}
+                        </p>
+                        <DashSnake />
+                    </div>
                 </motion.div>
             </div>
         </footer>

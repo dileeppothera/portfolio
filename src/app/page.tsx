@@ -7,6 +7,7 @@ import { Hero } from "@/components/Hero";
 import { Skills } from "@/components/Skills";
 import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
+import { Fragments } from "@/components/Fragments";
 import { Contact } from "@/components/Contact";
 import { portfolioData } from "@/data/portfolio";
 import { motion, AnimatePresence } from "framer-motion";
@@ -103,6 +104,7 @@ export default function Home() {
       </section>
 
       <Projects />
+      <Fragments />
       <Skills />
       <Experience />
       <Contact />
