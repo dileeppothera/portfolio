@@ -1,3 +1,5 @@
+"use client";
+
 import { CustomCursor } from "@/components/CustomCursor";
 import { ParticlesBackground } from "@/components/ParticlesBackground";
 import { Loader } from "@/components/Loader";

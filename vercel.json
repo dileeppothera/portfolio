@@ -1,0 +1,10 @@
+{
+    "name": "dileep-resume",
+    "framework": "nextjs",
+    "buildCommand": "next build",
+    "installCommand": "npm install --legacy-peer-deps",
+    "devCommand": "next dev",
+    "regions": [
+        "sin1"
+    ]
+}
