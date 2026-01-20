@@ -93,7 +93,7 @@ const IllustratorCanvas = () => {
                 onTouchStart={startDrawing}
                 onTouchMove={draw}
                 onTouchEnd={stopDrawing}
-                className="absolute inset-0 z-10"
+                className="absolute inset-0 z-10 touch-none"
             />
 
             {!hasDrawn && (
