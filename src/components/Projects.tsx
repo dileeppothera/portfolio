@@ -40,7 +40,7 @@ export function Projects() {
                             </div>
 
                             <div className="mt-6 md:mt-0 flex items-center justify-between md:justify-end gap-12">
-                                <p className="max-w-xs text-sm text-muted line-clamp-1">{project.description}</p>
+                                <p className="max-w-xs text-sm text-muted line-clamp-2 text-left md:text-right">{project.description}</p>
                                 <div className="h-10 w-10 flex items-center justify-center rounded-full border border-white/20 group-hover:bg-white group-hover:text-black transition-all">
                                     <ArrowUpRight className="h-5 w-5" />
                                 </div>

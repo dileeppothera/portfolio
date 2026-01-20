@@ -75,19 +75,10 @@ export const portfolioData = {
   ],
   projects: [
     {
-      name: "TANGLE",
-      domain: "Social Networking - Netherlands",
-      description: "Built real-time chat, Firebase integration, 10K+ users",
-      links: [
-        { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.tangleoffline.tangle" },
-        { label: "App Store", url: "https://apps.apple.com/in/app/tangle-student-nl-social-life/id6446587394" },
-      ],
-    },
-    {
-      name: "StartGoals",
-      domain: "EdTech - India",
-      description: "E-learning platform with video streaming & progress tracking",
-      links: [{ label: "Play Store", url: "https://play.google.com/store/apps/details?id=in.startgoals.app" }],
+      name: "Greens Hyper",
+      domain: "E-commerce - Kerala",
+      description: "Full-featured grocery delivery app, 10K+ users",
+      links: [{ label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.greens.app" }],
     },
     {
       name: "Rent it Online",
@@ -99,16 +90,25 @@ export const portfolioData = {
       ],
     },
     {
-      name: "Greens Hyper",
-      domain: "E-commerce - Kerala",
-      description: "Full-featured grocery delivery app, 10K+ users",
-      links: [{ label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.greens.app" }],
-    },
-    {
       name: "I am Qatar",
       domain: "E-commerce - Qatar",
       description: "Regional marketplace with Arabic localization, 10K+ users",
       links: [{ label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.iamqatar.app" }],
+    },
+    {
+      name: "TANGLE",
+      domain: "Social Networking - Netherlands",
+      description: "Built real-time chat, Firebase integration, 5K+ users",
+      links: [
+        { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.tangleoffline.tangle" },
+        { label: "App Store", url: "https://apps.apple.com/in/app/tangle-student-nl-social-life/id6446587394" },
+      ],
+    },
+    {
+      name: "StartGoals",
+      domain: "EdTech - India",
+      description: "E-learning platform with video streaming & progress tracking",
+      links: [{ label: "Play Store", url: "https://play.google.com/store/apps/details?id=in.startgoals.app" }],
     },
     {
       name: "Faindr",
@@ -139,7 +139,7 @@ export const portfolioData = {
     { name: "Malayalam", level: "Native" },
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Fluent" },
-    { name: "Tamil", level: "Conversational" },
+    { name: "Tamil", level: "Fluent" },
     { name: "Telugu", level: "Conversational" },
     { name: "Spanish", level: "Basic" },
   ],
