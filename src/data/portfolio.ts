@@ -14,8 +14,8 @@ export const portfolioData = {
   summary: "Flutter Developer with 5+ years of experience building cross-platform mobile applications across e-commerce, social networking, and EdTech domains. Published 2 packages on pub.dev. Specialized in performance optimization, scalable architecture, and delivering production-ready apps with 50K+ combined downloads on Play Store & App Store.",
   achievements: [
     "Published 2 Flutter packages on pub.dev (utils_x, island_msg)",
-    "Successfully delivered 10+ production apps on Play Store & App Store",
-    "Led migration of 3 legacy apps to Flutter, reducing app size by 40%",
+    "Successfully delivered 20+ production apps on Play Store & App Store",
+    "Led migration of several legacy apps to Flutter, reducing app size by 40%",
     "Mentored 5+ junior developers and established code review best practices",
   ],
   skills: {
@@ -28,13 +28,24 @@ export const portfolioData = {
   },
   experience: [
     {
+      role: "Freelance Flutter Developer",
+      company: "Self-Employed",
+      period: "Mar 2025 – Present",
+      points: [
+        "Delivered 8+ client projects across e-commerce, rental, and social networking domains.",
+        "Specialized in third-party API integrations (payment gateways, maps, social auth).",
+        "Implemented scalable state management solutions using Provider and Bloc.",
+        "Maintained 100% on-time delivery rate with strong client communication.",
+      ],
+    },
+    {
       role: "Flutter Developer",
       company: "Invicta E-Solutions, Goa",
       period: "Jan 2024 – Mar 2025",
       points: [
+        "Developed and maintained cross-platform Flutter & React web applications.",
         "Led migration of 3 legacy apps to Flutter, reducing app size by 40% and improving load time by 2x.",
         "Built 20+ reusable UI components, cutting feature development time by 30%.",
-        "Developed and maintained cross-platform Flutter & React web applications.",
         "Implemented Clean Architecture patterns, improving code maintainability and testability.",
       ],
     },
@@ -43,21 +54,10 @@ export const portfolioData = {
       company: "Alisons Infomatics, Kannur",
       period: "Dec 2021 – Jan 2024",
       points: [
-        "Led development of 5+ mobile apps with 50K+ combined downloads across Play Store & App Store.",
+        "Led development of several mobile apps with 50K+ combined downloads across Play Store & App Store.",
         "Managed end-to-end app lifecycle including Play Console and App Store Connect submissions.",
-        "Mentored 5+ junior developers, conducted code reviews, and established coding standards.",
+        "Mentored junior developers, conducted code reviews, and established coding standards.",
         "Integrated Firebase services (Auth, Firestore, FCM) reducing backend development overhead by 40%.",
-      ],
-    },
-    {
-      role: "Freelance Flutter Developer",
-      company: "Self-Employed (Part-time)",
-      period: "Mar 2020 – Present",
-      points: [
-        "Delivered 8+ client projects across e-commerce, rental, and social networking domains.",
-        "Specialized in third-party API integrations (payment gateways, maps, social auth).",
-        "Implemented scalable state management solutions using Provider and Bloc.",
-        "Maintained 100% on-time delivery rate with strong client communication.",
       ],
     },
   ],
