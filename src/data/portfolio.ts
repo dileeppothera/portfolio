@@ -55,6 +55,7 @@ export const portfolioData = {
       period: "Dec 2021 – Jan 2024",
       points: [
         "Led development of several mobile apps with 50K+ combined downloads across Play Store & App Store.",
+        "Made 2 different e-commerce app templates, delivery system apps templates and a social networking app template for reselling.",
         "Managed end-to-end app lifecycle including Play Console and App Store Connect submissions.",
         "Mentored junior developers, conducted code reviews, and established coding standards.",
         "Integrated Firebase services (Auth, Firestore, FCM) reducing backend development overhead by 40%.",
