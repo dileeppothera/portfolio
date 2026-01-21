@@ -9,7 +9,7 @@ export const portfolioData = {
     github: "https://github.com/dileeppothera",
     medium: "https://medium.com/@dileeppothera7",
     instagram: "https://instagram.com/di_sign_",
-    resumeUrl: "/resume.html",
+    resumeUrl: "/resume_v2.html",
   },
   summary: "Flutter Developer with 5+ years of experience building cross-platform mobile applications across e-commerce, social networking, and EdTech domains. Published 2 packages on pub.dev. Specialized in performance optimization, scalable architecture, and delivering production-ready apps with 50K+ combined downloads on Play Store & App Store.",
   achievements: [
