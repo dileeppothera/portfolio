@@ -7,6 +7,8 @@ export const portfolioData = {
     location: "Kannur, Kerala, India",
     linkedin: "https://linkedin.com/in/dileep-p-758252157",
     github: "https://github.com/dileeppothera",
+    medium: "https://medium.com/@dileeppothera7",
+    instagram: "https://instagram.com/di_sign_",
     resumeUrl: "/resume.html",
   },
   summary: "Flutter Developer with 5+ years of experience building cross-platform mobile applications across e-commerce, social networking, and EdTech domains. Published 2 packages on pub.dev. Specialized in performance optimization, scalable architecture, and delivering production-ready apps with 50K+ combined downloads on Play Store & App Store.",
