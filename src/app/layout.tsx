@@ -14,8 +14,22 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dileepp.vercel.app"),
   title: "Dileep P | Flutter Developer",
   description: "Senior Flutter Developer specializing in high-performance cross-platform applications.",
+  openGraph: {
+    title: "Dileep P | Flutter Developer",
+    description: "Senior Flutter Developer specializing in high-performance cross-platform applications.",
+    url: "https://dileepp.vercel.app",
+    siteName: "Dileep P | Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dileep P | Flutter Developer",
+    description: "Senior Flutter Developer specializing in high-performance cross-platform applications.",
+  },
 };
 
 export default function RootLayout({
