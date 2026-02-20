@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://dileepp.vercel.app"),
   title: "Dileep P | Flutter Developer",
   description: "Senior Flutter Developer specializing in high-performance cross-platform applications.",
+  verification: {
+    google: '_c6QmI6PJt8a1x0ZruLZUEp34f9czajiI_UQTF4bboY'
+  },
   openGraph: {
     title: "Dileep P | Flutter Developer",
     description: "Senior Flutter Developer specializing in high-performance cross-platform applications.",
