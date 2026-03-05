@@ -1,0 +1,15 @@
+[2026-02-20T11:09:52.315Z] [debug] Notifying parent we're ready
+[2026-02-20T11:09:52.319Z] [debug] Received message from parent: {
+  cacheFile: '/Users/dileep/Works/resume-website/.mock-home/Library/Caches/com.vercel.cli/package-updates/vercel-latest.json',
+  distTag: 'latest',
+  name: 'vercel',
+  updateCheckInterval: 86400000
+}
+[2026-02-20T11:09:52.319Z] [debug] Disconnecting from parent
+[2026-02-20T11:09:52.320Z] [debug] Checking lock file: /Users/dileep/Works/resume-website/.mock-home/Library/Caches/com.vercel.cli/package-updates/vercel-latest.lock
+[2026-02-20T11:09:52.320Z] [debug] Initializing lock file with pid 31527
+[2026-02-20T11:09:52.321Z] [debug] Fetching https://registry.npmjs.org/-/package/vercel/dist-tags
+[2026-02-20T11:09:52.779Z] [debug] Found dist tag "latest" with version "50.22.0"
+[2026-02-20T11:09:52.779Z] [debug] Writing cache file: /Users/dileep/Works/resume-website/.mock-home/Library/Caches/com.vercel.cli/package-updates/vercel-latest.json
+[2026-02-20T11:09:52.781Z] [debug] Releasing lock file: /Users/dileep/Works/resume-website/.mock-home/Library/Caches/com.vercel.cli/package-updates/vercel-latest.lock
+[2026-02-20T11:09:52.781Z] [debug] Worker finished successfully!

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Dileep P | Flutter Developer",
     description: "Senior Flutter Developer specializing in high-performance cross-platform applications.",
     url: "https://dileepp.vercel.app",
-    siteName: "Dileep P",
+    siteName: "Dileep P | Portfolio",
     locale: "en_US",
     type: "website",
   },
